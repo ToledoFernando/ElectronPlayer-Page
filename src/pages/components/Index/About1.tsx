@@ -1,30 +1,35 @@
 import React from "react";
 import Image from "next/image";
+import style from "@/styles/About1.module.css";
 
 function About1() {
   return (
-    <div>
+    <div id="about" className={style.about}>
       <section>
-        <h2>Sobre ElectronPlayer</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
-          mollitia explicabo, ea voluptates deserunt blanditiis ut amet nihil
-          quis numquam dolore nam atque necessitatibus harum vero placeat enim
-          repellat modi sed? Eligendi nostrum quo officia qui, repudiandae est
-          quam facere doloribus rem consequuntur, nulla aliquid at doloremque
-          quod eos ullam beatae cupiditate quae repellat fugit libero
-          laboriosam. Quidem architecto perferendis provident illo nisi quisquam
-          omnis animi odit aliquam ut, adipisci dignissimos unde et accusantium
-          ullam id esse at recusandae cumque laboriosam quis praesentium eius
-          dolorem tempora! Dolor odio labore, natus laboriosam libero, assumenda
-          expedita ipsum debitis dignissimos aspernatur repellendus? Adipisci
-          labore voluptates dolor quae nostrum architecto hic ea, facere est!
-          Reprehenderit reiciendis voluptatum cupiditate. Ipsa corrupti sint eum
-          obcaecati commodi! Labore ea sint omnis rerum quae, quo voluptatibus
-          adipisci earum repellat molestiae, doloremque tempore quam voluptates
-          enim libero aperiam vel doloribus atque hic eaque? Animi dignissimos
-          deserunt libero quidem. Labore?
-        </p>
+        <div className={style.divAbout}>
+          <h2>Sobre ElectronPlayer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+            mollitia explicabo, ea voluptates deserunt blanditiis ut amet nihil
+            quis numquam dolore nam atque necessitatibus harum vero placeat enim
+            repellat modi sed? Eligendi nostrum quo officia qui, repudiandae est
+            quam facere doloribus rem consequuntur, nulla aliquid at doloremque
+            quod eos ullam beatae cupiditate quae repellat fugit libero
+            laboriosam. Quidem architecto perferendis provident illo nisi
+            quisquam omnis animi odit aliquam ut, adipisci dignissimos unde et
+            accusantium ullam id esse at recusandae cumque laboriosam quis
+            praesentium eius dolorem tempora! Dolor odio labore, natus
+            laboriosam libero, assumenda expedita ipsum debitis dignissimos
+            aspernatur repellendus? Adipisci labore voluptates dolor quae
+            nostrum architecto hic ea, facere est! Reprehenderit reiciendis
+            voluptatum cupiditate. Ipsa corrupti sint eum obcaecati commodi!
+            Labore ea sint omnis rerum quae, quo voluptatibus adipisci earum
+            repellat molestiae, doloremque tempore quam voluptates enim libero
+            aperiam vel doloribus atque hic eaque? Animi dignissimos deserunt
+            libero quidem. Labore?
+          </p>
+        </div>
+        <img src="/icon.png" alt="electronplayer - logo" />
       </section>
       <div>
         <h2>Tecnologias Utilizadas</h2>
