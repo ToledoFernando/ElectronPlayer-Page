@@ -1,20 +1,23 @@
 import React from "react";
 import Image from "next/image";
-// import ico from "/icon.png";
+import style from "@/styles/Nav.module.css";
 
 function NavBar() {
   return (
-    <nav>
-      <div>
-        <Image
-          src={"/icon.png"}
-          width="40"
-          height="40"
-          alt="Logo Electron PLayer"
-        />
+    <nav className={style.nav}>
+      <div className={style.div}>
+        <div className={style.img}>
+          <Image
+            src={"/icon.png"}
+            width="40"
+            height="40"
+            alt="Logo Electron PLayer"
+          />
+          <h2>ElectronPlayer</h2>
+        </div>
         <ul>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#">Codigo</a>
