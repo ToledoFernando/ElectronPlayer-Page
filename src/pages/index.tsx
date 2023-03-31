@@ -16,6 +16,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
         <meta
+          name="google-site-verification"
+          content="R3hhKOccRi6_ydqHktXn8VK3arE_oO2pp-bII4q500g"
+        />
+        <meta
           name="description"
           content="ElectronPlayer es el reproductor de música gratuito. Escucha musica de manera local sin conexion a internet o bien descarga la musica que mas te guste"
         ></meta>
