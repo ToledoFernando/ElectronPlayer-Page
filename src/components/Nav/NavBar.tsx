@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import style from "@/styles/Nav.module.scss";
+import data from "../Index/Vercion.json";
 
 function NavBar() {
   const [menu, setMenu] = React.useState<boolean>(false);
@@ -34,13 +35,18 @@ function NavBar() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Codigo</a>
+              <a
+                href="https://github.com/ToledoFernando/ElectronPlayer"
+                target="_blank"
+              >
+                Codigo
+              </a>
             </li>
             <li>
-              <a href="#">Descarga</a>
+              <a href={data.dw}>Descarga</a>
             </li>
             <li>
-              <a href="#">Contacto</a>
+              <a href="https://ftoledo.online">Contacto</a>
             </li>
           </ul>
         </div>
