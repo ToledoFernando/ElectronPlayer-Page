@@ -1,9 +1,22 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import style from "@/styles/index/Footer.module.scss";
+import data from "./Vercion.json";
 
 function Footer() {
   const [year, setYear] = useState<number>();
+
+  const dow = () => {
+    window.location.href = data.dw;
+  };
+
+  const source = () => {
+    window.open("https://github.com/ToledoFernando/ElectronPlayer");
+  };
+
+  const dev = () => {
+    window.open("https://ftoledo.online");
+  };
 
   useEffect(() => {
     const fecha = new Date();
@@ -23,13 +36,13 @@ function Footer() {
         <p>©{year} ElectronPlayer</p>
       </div>
       <div className={style.buttons}>
-        <button>
+        <button onClick={source}>
           Ver Codigo <span></span>
         </button>
-        <button>
+        <button onClick={dow}>
           Descargar <span></span>
         </button>
-        <button>
+        <button onClick={dev}>
           Toledo Dev <span></span>
         </button>
       </div>

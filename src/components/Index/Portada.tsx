@@ -7,6 +7,14 @@ import Typed from "typed.js";
 function Portada() {
   const inf = useRef(null);
 
+  const dow = () => {
+    window.location.href = data.dw;
+  };
+
+  const source = () => {
+    window.open("https://github.com/ToledoFernando/ElectronPlayer");
+  };
+
   useEffect(() => {
     new Typed(inf.current, {
       strings: [
@@ -25,8 +33,8 @@ function Portada() {
         <div>
           <h1>Electron Player</h1>
           <p ref={inf}></p>
-          <button>Download</button>
-          <button>Codigo</button>
+          <button onClick={dow}>Descargar</button>
+          <button onClick={source}>Codigo</button>
         </div>
       </div>
       <Image
