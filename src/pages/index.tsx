@@ -5,7 +5,7 @@ import About1 from "@/components/Index/About1";
 import About2 from "@/components/Index/About2";
 import Verciones from "@/components/Index/Verciones";
 import Footer from "@/components/Index/Footer";
-import style from "@/styles/index/index.module.scss";
+import style from "@/styles/index/Index.module.scss";
 
 export default function Home() {
   return (
