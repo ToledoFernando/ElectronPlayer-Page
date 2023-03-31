@@ -1,0 +1,62 @@
+.footer {
+  margin-top: 30px;
+  background-image: linear-gradient(to top right, #02021e, #0e0e0e 50%);
+  color: var(--font-c2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+
+  .iconE {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+
+    img {
+      transition: 0.5s;
+      &:hover {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .buttons {
+    button {
+      margin: 15px;
+      cursor: pointer;
+      color: #fff;
+      background-color: transparent;
+      border: 0;
+      transition: background-color 0.5s;
+      position: relative;
+
+      span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        height: 1px;
+        width: 0;
+        transition: 0.5s;
+      }
+
+      &:hover {
+        span {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    padding-bottom: 10px;
+    .buttons {
+      button {
+        margin: 15px;
+      }
+    }
+  }
+}

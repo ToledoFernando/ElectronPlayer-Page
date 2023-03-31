@@ -1,0 +1,22 @@
+{
+  "verciones": [
+    {
+      "fecha": "28-Marzo-2023",
+      "ver": "1.1.0",
+      "title": "Se agrego Funcionar en segundo plano",
+      "detalle": "Se agrego funcion 'Reproducir en segundo plano' al cerrar la aplicacion, ahora se puede cerrar la aplicacion ya que la misma seguira ejecutandoce en segundo plano, podra ver el icono de ElectronPlayer en el apartado de 'Notificaciones' de Windows, si desea cerrar la aplicacion puede dar click derecho sobre el icono y dar el 'Cerrar', esto cerrara de forma definitica a ElectronPlayer."
+    },
+    {
+      "fecha": "17-Marzo-2023",
+      "ver": "1.0.6",
+      "title": "Optimizacion al cargar las musicas",
+      "detalle": "Se realizo mejoras significativas a la carga de archivos, en verciones anteriores la aplicacion tardaba en cargar una cantidad de archivos relativamente bajo, se soluciono ese problema y ahora la carga es mas optima dando una mejor experiencia de usuario."
+    },
+    {
+      "fecha": "04-Marzo-2023",
+      "ver": "1.0.0",
+      "title": "Lanzamiento de ElectronPlayer",
+      "detalle": "Esta es la primera vez que ElectronPlayer se ha puesto al alcance del público. Probando su primera interfaz de usuario y sus multiples funciones (descargar y reproducir). La primera vercion solo estara disponible en sistemas operativos Windows, pero se planea lanzar verciones para Linux y Android."
+    }
+  ]
+}
