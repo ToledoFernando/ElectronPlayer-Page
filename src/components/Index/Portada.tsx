@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import style from "@/styles/Portada.module.css";
+import style from "@/styles/index/Portada.module.scss";
 import data from "./Vercion.json";
 import Typed from "typed.js";
 
@@ -23,7 +23,7 @@ function Portada() {
     <section className={style.portada}>
       <div className={style.div1}>
         <div>
-          <h1>Electron Player v1</h1>
+          <h1>Electron Player</h1>
           <p ref={inf}></p>
           <button>Download</button>
           <button>Codigo</button>
